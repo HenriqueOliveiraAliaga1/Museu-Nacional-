@@ -44,7 +44,7 @@ header {
 
 nav ul {
     list-style: none;
-    margin: -60px;
+    margin: -360px  -460px;
     float: right;
 }
 
@@ -74,7 +74,15 @@ nav ul li a:hover {
 aside {
     width: 350px;
     float: right;
-    background: red;
+    background: #ebe7dd;
+}
+
+section #visita{
+    background: #cdc8b1;
+    padding: 10px 27px 27px 27px;
+    margin-top: 10px;
+
+
 }
 
 
