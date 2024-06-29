@@ -28,32 +28,83 @@
 
         <div id="principal"><!--Início Principal-->
 
-            <div id="conteudos">
+            <div id="conteudo">
                 
                <selection id="capa">
                     <img src="img/museu.png" alt="">
 
             </div>
 
+            <section id="postagens">
+                <article id="video">
+                    <h3>Video: conheça o museu</h3>
+                    <iframe width="310" height="170" src="https://www.youtube.com/embed/RGUYb-hivrc?si=w3YBZJO6t5hIr5_W"
+                     title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write;
+                    encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin"
+                     allowfullscreen></iframe>
+
+                </article>
+
+                <article>
+                    <h3>Encontre: o museu</h3>
+                    <iframe 
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3675.2063112591054!2d-43.2265289!3d
+                    -22.90576!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x997e58a085b7af%3A0x4d11e9a933d38ce3!2sMuseu%20Nacional%20
+                    -%20UFRJ!5e0!3m2!1spt
+                    -BR!2sbr!4v1719613572847!5m2!1spt-BR!2sbr"
+                     width="310" height="170" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
+                    </iframe>
+
+                </article>
+
+            </section>
+
             <aside>
-                <select name="" id="depoimento">
+                <select id="depoimento">
                     <img src="img/depoimento.png" alt="">
                 </select>
 
-                <select name="" id="visita">
+                <select name="" id="visita"> <!--Início visita -->
                     <h4>Faça uma visita</h4>
                         <form action="">
                             <fieldset>
                              <legend>Selecione uma data</legend>
-                                <label for="data">Data</label>
+                                <label class="campo" for="data">Data</label>
                                 <input type="text" id="data" value="dd/mm/aaaa">
                                 <label for="qtd">Qtd Pessoas</label>
-                                <input type="text" id="qtd" value="1">
+                                <input class="campo" width="30px" type="text" id="qtd" value="1">
                             </fieldset>
-                            <input type="submit" value="Verificar disponibilidade" id="">
+                            <input class="botao" type="submit" value="Verificar disponibilidade" id="">
                         </form>
                 
-                </select>
+                </select> <!--/ Fim visita -->
+
+                <section id="galeria"><!--Início galeria -->
+                        <h4>Galeria de Fotos</h4>
+                        
+                        <a href="">
+                            <img src="img/imagem1.jpg" height="93" width="93" 
+                             alt="Descrcao imagem">
+                        </a>
+                        
+                        <a href="">
+                            <img src="img/imagem2.jpg" height="93" width="93"
+                            alt="Descrcao imagem">
+                            
+                        </a>
+
+                        <a href="">
+                            <img src="img/imagem3.jpg" height="93" width="93"
+                            alt="Descrcao imagem">
+                        </a>
+
+                        <a href="">
+                            <img src="img/imagem4.jpg" height="93" width="93"
+                            alt="Descrcao imagem">
+                        </a>
+
+
+                </section><!--/ Fim galeria-->
 
             </aside>
 
